@@ -13,7 +13,7 @@ cd это команда встроенная
 3. Какой процесс с PID 1 является родителем для всех процессов в вашей виртуальной машине Ubuntu 20.04?
 	pstree -p	
 
-
+```bash
 systemd(1)─┬─VBoxService(1145)─┬─{VBoxService}(1147)
            │                   ├─{VBoxService}(1148)
            │                   ├─{VBoxService}(1149)
@@ -23,7 +23,7 @@ systemd(1)─┬─VBoxService(1145)─┬─{VBoxService}(1147)
            │                   ├─{VBoxService}(1155)
            │                   └─{VBoxService}(1156)
 	
-
+```
 
 4. Как будет выглядеть команда, которая перенаправит вывод stderr ls на другую сессию терминала?
 
